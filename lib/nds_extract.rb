@@ -12,7 +12,7 @@ if !result[name]
 result[name] = total
 else
   result[name] += total
-
+row_index += 1
 #binding.pry
    while row_index < directors_database[row_index][:movies].length do
       gross = directors_database[0][:movies]
@@ -21,7 +21,7 @@ else
  #binding.pry 
 row_index += 1
 end
-#binding.pry
+binding.pry
 return result
 end
 end
