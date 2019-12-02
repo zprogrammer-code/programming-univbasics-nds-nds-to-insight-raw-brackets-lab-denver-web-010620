@@ -16,7 +16,7 @@ else
 #binding.pry
 column_index = 0
    while column_index < directors_database[row_index][:movies].length do
-      gross = directors_database[0][:movies]
+      gross = directors_database[row_index][:movies]
  worldwide_gross = gross[column_index][:worldwide_gross]
  result[name] += worldwide_gross
  #binding.pry 
