@@ -25,6 +25,7 @@ end
 return result
 end
 end
+
 end
  #name = directors_database[row_index][:name] 
 pp directors_database
