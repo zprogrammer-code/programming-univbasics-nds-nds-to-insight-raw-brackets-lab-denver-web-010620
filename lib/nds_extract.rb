@@ -15,13 +15,14 @@ else
 
 #binding.pry
 column_index = 0
-   while row_index < directors_database[colum][:movies].length do
+   while column_index < directors_database[row_index][:movies].length do
       gross = directors_database[0][:movies]
- worldwide_gross = gross[row_index][:worldwide_gross]
+ worldwide_gross = gross[column_index][:worldwide_gross]
  result[name] += worldwide_gross
  #binding.pry 
-row_index += 1
+column_index += 1
 end
+row_index += 1
 #binding.pry
 end
 end
