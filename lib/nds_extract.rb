@@ -22,10 +22,9 @@ else
 row_index += 1
 end
 #binding.pry
+end
+end
 return result
-end
-end
-
 end
  #name = directors_database[row_index][:name] 
 pp directors_database
