@@ -1,4 +1,4 @@
-# Construct Insights from an NDS With the `[]`s
+ # Construct Insights from an NDS With the `[]`s
 
 ## Introduction
 
